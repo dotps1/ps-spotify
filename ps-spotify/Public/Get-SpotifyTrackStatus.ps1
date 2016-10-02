@@ -71,7 +71,6 @@ Function Get-SpotifyTrackStatus {
         )]
         [Int]
         $Port = (Get-SpotifyWebHelperPort)
-        
     )
 
     $params = @{

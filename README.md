@@ -16,7 +16,6 @@ ps-spotify is able to send crafted GET requests to this API server to control yo
 **Command arguments:**
 - `Find-SpotifyItem [-SearchQuery] <string> [-SearchType] {Artist | Track | Playlist | Album} [[-Limit] <int>] [[-Offset] <int>]  [<CommonParameters>]`
 - `Get-SpotifyTrackStatus [[-Port] <string>]  [<CommonParameters>]`
-- `Set-SpotifyTrack [-Port <string>]  [<CommonParameters>]`
 - `Set-SpotifyTrack -SpotifyUri <string> [-Port <string>]  [<CommonParameters>]`
 - `Set-SpotifyTrack [-Pause] [-Port <string>]  [<CommonParameters>]`
 - `Set-SpotifyTrack [-Resume] [-Port <string>]  [<CommonParameters>]`

@@ -12,9 +12,9 @@
     The text value to search on.
 .PARAMETER SearchType
     The item type to return from the search.
-.PARAMETER limit
+.PARAMETER Limit
     A maximum number of results to return.
-.PARAMETER offset
+.PARAMETER Offset
 .EXAMPLE
     PS C:\> Find-SpotifyItem -SearchQuery "Mudvayne" -SearchType Artist
 
